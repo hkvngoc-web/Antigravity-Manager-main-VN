@@ -1,0 +1,86 @@
+# ============================
+# ENVIRONMENT
+# ============================
+.env
+.env.*
+environment/
+
+# ============================
+# PYTHON
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.venv*/
+venv/
+build/
+dist/
+
+# ============================
+# NODE / TAURI
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# Tauri generated files
+src-tauri/gen/
+src-tauri/.env
+src-tauri/target/
+
+# ============================
+# RUST (Tauri backend)
+# ============================
+target/
+Cargo.lock
+
+# ============================
+# EDITORS / IDE
+# ============================
+.vscode/
+.vscode/*
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# ============================
+# OS FILES
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# LOGS
+# ============================
+*.log
+logs/
+log/
+
+# ============================
+# DOCKER (if used)
+# ============================
+DOCKER_DEPLOYMENT.md
+
+# ============================
+# BACKUPS / TEMP
+# ============================
+*.bak
+*.tmp
+*.temp
+*.old
+
+# ============================
+# MISC
+# ============================
+*.sqlite
+*.db
+
